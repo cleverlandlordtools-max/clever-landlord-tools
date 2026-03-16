@@ -61,4 +61,17 @@ padding:20px;
 margin-top:40px;
 background:#eee;
 }
+function calculateYield(){
+
+let price = document.getElementById("price").value;
+let rent = document.getElementById("rent").value;
+
+let annualRent = rent * 12;
+
+let yield = (annualRent / price) * 100;
+
+document.getElementById("result").innerHTML =
+"Gross Yield: " + yield.toFixed(2) + "%";
+
+}
 
