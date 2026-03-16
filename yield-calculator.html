@@ -25,22 +25,24 @@
 
 <div class="card">
 
-<label>Property Price (£)</label>
-<input type="number" id="price">
+<h2>Calculate Your Buy To Let Yield</h2>
+
+<label>Property Purchase Price (£)</label>
+<input type="number" id="price" placeholder="e.g. 200000">
 
 <label>Monthly Rent (£)</label>
-<input type="number" id="rent">
+<input type="number" id="rent" placeholder="e.g. 900">
 
-<button onclick="calculateYield()">Calculate Yield</button>
+<label>Annual Expenses (£)</label>
+<input type="number" id="expenses" placeholder="e.g. 2500">
+
+<button onclick="calculateYield()">Calculate</button>
 
 <h3 id="result"></h3>
+<p id="profit"></p>
 
 </div>
 
-</div>
 
-<script src="script.js"></script>
 
-</body>
-</html>
 
